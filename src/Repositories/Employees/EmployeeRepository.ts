@@ -6,13 +6,13 @@ import { UpdateEmployeeRequest } from "./Models/UpdateEmployeeRequest";
 
 const GetEmployee: (employeeId: number) => Promise<Employee | null> = (employeeId) => {
     return new Promise<Employee>((resolve, reject) => {
-        reject(new Error("not implemented"));
+        reject(new Error("method not implemented"));
     });
 };
 
 const GetEmployees: (skip: number, take: number) => Promise<Array<Employee>> = (skip, take) => {
     return new Promise<Array<Employee>>((resolve, reject) => {
-        reject(new Error("not implemented"));
+        reject(new Error("method not implemented"));
     });
 };
 
